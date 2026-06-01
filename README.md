@@ -24,7 +24,7 @@ No installation needed. Just clone and make executable.
 
 ```bash
 git clone https://github.com/Ashiii27/Wordlist-Generator
-cd wordlist-generator
+cd Wordlist-Generator
 chmod +x wordlist-generator.sh
 ```
 
