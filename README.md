@@ -23,7 +23,7 @@ bash --version
 No installation needed. Just clone and make executable.
 
 ```bash
-git clone https://github.com/ashiii27/wordlist-generator.git
+git clone https://github.com/Ashiii27/Wordlist-Generator
 cd wordlist-generator
 chmod +x wordlist-generator.sh
 ```
