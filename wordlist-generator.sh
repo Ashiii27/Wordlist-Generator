@@ -48,8 +48,8 @@ required_cmds=(mktemp sort du awk gzip fold getopt wc)
 # LOGGING
 # =============================================================================
 
-info(){ [[ "$VERBOSE" == true ]] && echo -e "[+] $*"; }
-warn(){ echo -e "[!] $*" >&2; }
+info(){ [[ "$VERBOSE" == true ]] && echo -e "[+] $*" || true; }
+warn(){ echo -e "[!] $*" >&2 || true; }
 err(){  echo -e "[-] $*" >&2; cleanup; exit 1; }
 
 # =============================================================================
